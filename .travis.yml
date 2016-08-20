@@ -8,7 +8,7 @@ android:
 script:
         - ./MyApplication/gradlew build
         - cd MyApplication/app/src/test/java/com/example/kattyadesiderio/wilencoapp
-        - ./gradlew build ExampleUnitTest
+        - gradle ExampleUnitTest
         
 before_install:
         - chmod +x MyApplication/gradlew
