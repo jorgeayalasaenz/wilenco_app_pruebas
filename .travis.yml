@@ -8,6 +8,7 @@ android:
 script:
         - ./MyApplication/gradlew build
         - cd MyApplication/app/src/test/java/com/example/kattyadesiderio/wilencoapp
+        - javac ExampleUnitTest.java
         - java -cp .:/usr/share/java/junit.jar ExampleUnitTest
         
 before_install:
