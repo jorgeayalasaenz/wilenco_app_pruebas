@@ -8,7 +8,7 @@ android:
 script:
         - ./MyApplication/gradlew build
         - cd MyApplication/app/src/test/java/com/example/kattyadesiderio/wilencoapp
-        - java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore ExampleUnitTest
+        - java -cp .:/usr/share/java/junit.jar ExampleUnitTest
         
 before_install:
         - chmod +x MyApplication/gradlew
