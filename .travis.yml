@@ -7,7 +7,7 @@ android:
                 - extra-android-m2repository
 script:
         - ./Wilenco_App/gradlew build
-        - cd Wilenco_App\app\src\test\java\com\example\kattyadesiderio\wilencoapp\
+        - cd Wilenco_App/app/src/test/java/com/example/kattyadesiderio/wilencoapp
         - javac ExampleUnitTest.java
         
 before_install:
