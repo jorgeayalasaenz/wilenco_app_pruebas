@@ -6,9 +6,9 @@ android:
                 - android-21
                 - extra-android-m2repository
 script:
-        - ./Wilenco_App/gradlew build
+        - ./MyApplication/gradlew build
         - cd MyApplication/app/src/test/java/com/example/kattyadesiderio/wilencoapp
-        - java ExampleUnitTest.java
+        - java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore ExampleUnitTest
         
 before_install:
         - chmod +x MyApplication/gradlew
