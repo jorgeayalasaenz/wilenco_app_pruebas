@@ -11,7 +11,7 @@ script:
         - java ExampleUnitTest.java
         
 before_install:
-        - chmod +x Wilenco_App/gradlew
+        - chmod +x MyApplication/gradlew
 branches:
         only:
                 - master
